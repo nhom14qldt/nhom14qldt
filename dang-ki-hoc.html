@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng kí học</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="dang-ki-hoc.css"/>
+	<link rel="icon" href="images/utc.png">
+</head>
+<body>
+	<div id="top">
+		<img src="images/logo1.png" alt="">
+		<header id="top">QUẢN LÝ SINH VIÊN</header>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="login1.html"><i class="none"></i>Thoát</a></li>
+			<li><a href="#"><i class="none"></i>Báo lỗi</a></li>
+			<li><a href="#"><i class="none"></i>Hỏi đáp</a></a></li>
+			<li><a href="homepage.html"><i class="none"></i>Trang chủ</a></li>
+		</ul>
+	</div>
+	<div id="content">
+        <div class="introduct-tab">
+            <p><span class="textintro">Mã sinh viên:</span> 011010</p>
+            <p><span class="textintro">Lớp:</span> CNTT-1</p>
+            <p><span class="textintro">Họ và tên:</span> Uchiha Nguyễn</p> 
+            <p><span class="textintro">Trạng thái:</span> <span style="color:rgb(255, 0, 212) ;">Tạm nghỉ</span></p> 
+        <div class="introduct-tab tab2">
+            <p><span class="textintro">Khóa:</span> K62</p>
+            <p><span class="textintro">Ngành:</span> Công nghệ thông tin</p>
+            <p><span class="textintro">Chọn học kỳ:</span></p>
+            <select name="Hocky" id="Hocky">
+                <option>Học kỳ 1</option>
+                <option>Học kỳ 2</option>
+            </select>
+        </div>
+    </div>
+	<article>
+		<h1>Đăng kí môn học</h1>
+		<form>
+			<table id="top" border="0">
+				<tr>
+					<td>Số TC tối thiểu cần đăng kí: <b>0</b>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>Số TC tối đa được phép ĐK: <b>Không hạn chế</b></td>
+				</tr>
+				<tr>
+					<td>Hạn chế số SV tối đa: <b>Có</b> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>Cho phép ĐK ngành ngoài: <b>Không</b></td>
+				</tr>
+				<tr>
+					<td><label for="cbotkbk">Thời khóa biểu khóa: </label></td>
+					<td>
+						<select name="tkbk" id="cbotkbk">
+							<option value="1">1_2022-2023</option>
+							<option value="2">...</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="cbonganh">Ngành:</label></td>
+					<td>
+						<select name="nganh" id="cbonganh">
+							<option value="1">K62 - Công nghệ thông tin</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</article>
+	<article>
+		<h1>Danh sách học phần có thể đăng ký học kỳ 1 năm học 2022 - 2023</h1>
+	</article>
+	<form>
+		<table id="bot">
+			<tr>
+				<th>STT</th>
+				<th>Chọn</th>
+				<th>Lớp học phần</th>
+				<th>Học phần</th>
+				<th>Thời gian</th>
+				<th>Địa điểm</th>
+				<th>Sĩ số</th>
+				<th>Số ĐK</th>
+				<th>Số TC</th>
+				<th>Ghi chú</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Cấu trúc dữ liệu và giải thuật-1-1-22(N04)</td>
+				<td>IT1.109.3</td>
+				<td>
+					Từ 15/08/2022 đến 30/08/2022:
+					<br>
+					<b>Thứ 3 tiết 1,2,3 (LT)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Cấu trúc dữ liệu và giải thuật-1-1-22(N04.BT1)</td>
+				<td>IT1.109.3</td>
+				<td>
+					Từ 31/10/2022 đến 27/11/2022:
+					<br>
+					<b>
+						Thứ 3 tiết 1,2,3 (BTap)
+						<br>
+						Thứ 7 tiết 4,5,6 (Btap)
+					</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Cấu trúc dữ liệu và giải thuật-1-1-22(N04.TH1)</td>
+				<td>IT1.109.3</td>
+				<td>
+					Từ 15/08/2022 đến 27/11/2022: (TH)
+					<br>
+					<b>(Thực hành)</b>
+				</td>
+				<td></td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Giáo dục thể chất F3-1-1-22(N56).TH</td>
+				<td>
+					Từ 15/08/2022 đến 28/02/2022: <b>(1)</b>
+					<br>
+					<b>Thứ 6 tiết 7,8,9 (TH)</b>
+					<br>
+					Từ 29/08/2022 đến 04/09/2022: <b>(2)</b>
+					<br>
+					<b>Thứ 3 tiết 10,11,12 (TH)</b>
+					<br>
+					Từ 05/09/2022 đến 30/10/2022: <b>(3)</b>
+					<br>
+					<b>Thứ 6 tiết 7,8,9 (TH)</b>
+				</td>
+				<td><b>(1,3)</b> Ngoài trời 2
+					<br>
+					<b>(2)</b> Ngoài trời 14
+				</td>
+				<td>40</td>
+				<td>33</td>
+				<td>1</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Kiến trúc và tổ chức máy tính-1-1-22(N03)</td>
+				<td>PE0.003.1</td>
+				<td>
+					Từ 15/08/2022 đến 30/10/2022:
+					<br>
+					<b>Thứ 3 tiết 4,5,6 (LT)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Kiến trúc và tổ chức máy tính-1-1-22(N03.BT1)</td>
+				<td>IT1.107.3</td>
+				<td>
+					Từ 15/08/2022 đến 20/11/2022:
+					<br>
+					<b>
+						Thứ 3 tiết 4,5,6 (BTap)
+						<br>
+						Thứ 6 tiết 4,5,6 (BTap)
+					</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Kiến trúc và tổ chức máy tính-1-1-22(N03.TH1)</td>
+				<td>IT1.107.3</td>
+				<td>
+					Từ 15/08/2022 đến 30/10/2022: (TH)
+					<br>
+					<b>(Thực hành)</b>
+				</td>
+				<td></td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Lập trình hướng đối tượng-1-1-22(N01)</td>
+				<td>IT1.108.3</td>
+				<td>
+					Từ 15/08/2022 đến 30/10/2022:
+					<br>
+					<b>Thứ 4 tiết 1,2,3 (LT)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Lập trình hướng đối tượng-1-1-22(N01.BT1)</td>
+				<td>IT1.108.3</td>
+				<td>
+					Từ 31/10/2022 đến 20/11/2022:
+					<br>
+					<b>
+						Thứ 4 tiết 1,2,3 (BTap)
+						<br>
+						Thứ 6 tiết 1,2,3 (BTap)
+					</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Lập trình hướng đối tượng-1-1-22(N01.TH1)</td>
+				<td>IT1.108.3</td>
+				<td>
+					Từ 15/08/2022 đến 27/11/2022: (TH)
+					<br>
+					<b>(Thực hành)</b>
+				</td>
+				<td></td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Thiết kế Web-1-1-22(N03)</td>
+				<td>IT1.106.3</td>
+				<td>
+					Từ 15/08/2022 đến 30/10/2022:
+					<br>
+					<b>Thứ 2 tiết 1,2,3 (LT)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Thiết kế Web-1-1-22(N03.BT1)</td>
+				<td>IT1.106.3</td>
+				<td>
+					Từ 31/10/2022 đến 13/11/2022: <b>(1)</b>
+					<br>
+					<b>Thứ 2 tiết 1,2,3 (BTap)</b>
+					<br>
+					Từ 14/11/2022 đến 27/11/2022: <b>(2)</b>
+					<br>
+					<b>Thứ 2 tiết 1,2,3 (BTap)
+						<br>
+					Thứ 4 tiết 4,5,6 (BTap)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Thiết kế Web-1-1-22(N03.TH1)</td>
+				<td>IT106.3</td>
+				<td>
+					Từ 15/08/2022 đến 30/10/2022: (TH)
+					<br>
+					<b>(Thực hành)</b>
+				</td>
+				<td></td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>14</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Toán rời rạc-1-1-22(N04)</td>
+				<td>IT1.105.3</td>
+				<td>
+					Từ 15/08/2022 đến 30/10/2022:
+					<br>
+					<b>Thứ 4 tiết 4,5,6 (LT)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Toán rời rạc-1-1-22(N04.BT1)</td>
+				<td>IT1.105.3</td>
+				<td>
+					Từ 12/09/2022 đến 27/11/2022:
+					<br>
+					<b>Thứ 7 tiết 1,2,3 (BTap)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Tư tưởng Hồ Chí Minh-1-1-22(N43)</td>
+				<td>PS0.005.2</td>
+				<td>
+					Từ 15/08/2022 đến 09/10/2022:
+					<br>
+					<b>Thứ 2 tiết 4,5,6 (LT)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td>2</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>17</td>
+				<td><input type="checkbox"></td>
+				<td id="bold">Tư tưởng Hồ Chí Minh-1-1-22(N43.TL1)</td>
+				<td>PS0.005.2</td>
+				<td>
+					Từ 10/10/2022 đến 27/11/1022:
+					<br>
+					<b>Thứ 2 tiết 4,5,6 (TL)</b>
+				</td>
+				<td>105-A5 Giảng đường A5</td>
+				<td>80</td>
+				<td>73</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+	<br>
+	<div class="nav">
+		<ul>
+			<li><a href="./thanh-cong.html"><i class="none"></i>Đăng ký</a></li>
+		</ul>
+	</div>
+	<br>
+</body>
+</html>

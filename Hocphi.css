@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: class="fa-regular fa-magnifying-glass";
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;  
+  margin-left: 210px;
+  padding-bottom: 5px;
+}
+body{
+	padding: 0px ;
+	margin:0px;
+}
+div#top {
+	background-color: #002747;
+}
+header#top {
+ 	padding: 34px 34px;
+ 	font-size: 30px;
+ 	color: #bdb8d7;
+ 	height: 100px;
+ 	float: right;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+	background-color: #dddddd;
+	padding: 0;
+	margin: 0;
+	width: 30%;
+	float: right;
+}
+nav ul li{
+	display:inline-block; 
+	font-size: 15px;
+	padding: 0px 10px 0px 10px;
+}
+nav a{
+	color:#000000;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: #FFB9B9;
+}
+table{
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+table,table tr, table th, table tr td {
+    padding-top: 100px;
+    margin-left: auto; margin-right: auto;
+    border: solid 1px black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table th{
+	font-style:italic; 
+	font-size:20px;
+}
+table td{
+	font-size:20px;
+}
+h1{
+	padding: 10px 0;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  color: #000000;
+  display: block;
+}
+
+.nav li a:hover
+{
+  background-color: #858ba6;
+}
+
+.nav ul li
+{
+  border-bottom: 1px solid #bdb8d7;
+  border-left: : 1px solid #bdb8d7;
+}
+table tr:nth-child(odd) {  
+    background-color: #5793f548;
+}
+table tr:first-of-type {
+	background-color: #5ec1ff;
+}
+.introduct-tab {
+    
+    display: flex;
+    height: 5rem;
+    background-color: #DFF6FF;
+    text-align:center;
+    justify-content: center;
+}
+
+.textintro {
+    color: #003996;
+    font-weight: bold;
+}
+
+.introduct-tab p {
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(209, 18, 18);
+    
+}
+
+.tab2{
+    display: flex;
+    margin-left: 80px;
+}
+
+.tab2 select {
+    margin: 18px;
+    width: 80px;
+    height: 40px;
+    background-color: #DFF6FF;
+    border: 2px solid #003996;
+    border-radius: 12px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding:20px 0px;
+    color: red;
+}

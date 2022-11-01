@@ -1,0 +1,143 @@
+*{
+     margin:0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+    background-color: #6C69F1;
+background-size: cover;  
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(images/utc2.jpg);
+ font-family: Arial, Helvetica;
+ }
+
+
+
+section{
+text-align: center;
+margin-top: 100px;
+}
+
+section .noi-dung{
+
+display: flex;     
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+ section .noi-dung .form{
+ border: 7.5px solid #074E88;
+ padding: 30px;
+   width: 35%;
+   border-radius: 70px;
+
+ }
+ section .noi-dung .form h2{
+ 	
+color: #052C6C;
+font-weight: 500;
+font-size: 1.5em;
+text-transform: uppercase;
+margin-bottom: 20px;
+border-bottom: 4px solid #033083;
+display: inline-block;
+letter-spacing: 1px;
+font-weight: bold;
+}
+section .noi-dung .form .input-form{
+margin-bottom: 20px;
+}
+section .noi-dung .form .input-form span{
+	
+font-size: 16px;
+margin-bottom: 5px;
+display: inline-block;
+color: #030508
+letter-spacing: 1px;
+ }
+section .noi-dung .form .input-form input{
+
+width: 90%;
+padding: 10px 20px;
+outline: none;
+border: 2px solid #010104;
+font-size: 16px;
+letter-spacing: 1px;
+color:#010104;
+background:transparent;
+border-radius: 30px;
+background:  #FFFFFF;
+}
+
+
+
+section .noi-dung .form .input-form a[type="submit"]{
+
+padding: 10px 20px;
+outline: none;
+border: 2px solid #010104;
+width: 100%;
+font-size: 16px;
+letter-spacing: 1px;
+color:#010104;
+background:transparent;
+border-radius: 30px;
+text-decoration: none;
+background: #083F99;
+color: #fff;
+outline: none;
+border: none;
+font-weight: 500;
+cursor: pointer;
+box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+0 2px 2px rgba(0,0,0,0.12),
+0 4px 4px rgba(0,0,0,0.12),
+0 8px 8px rgba(0,0,0,0.12),
+0 16px 16px rgba(0,0,0,0.12);
+
+}
+section .noi-dung .form .input-form a[type="submit"]:hover{
+     background: #110C5E;
+     }
+     section .noi-dung .form .nho-dang-nhap{
+
+     margin-bottom: 10px;
+     color: red;
+     font-size: 14px;
+font-weight: bold;
+padding-bottom: 10px;
+
+ }
+ section .noi-dung .form .nho-mat-khau{
+
+     margin-bottom: 10px;
+     color: #FFFFFF;
+     font-size: 18px;
+font-weight: bold;
+padding-bottom: 10px;
+
+ }
+ section .noi-dung .form .input-form p{
+     color: #010105;
+     font-weight: bold;
+     padding-bottom: 5px;
+     
+     
+   
+
+ }
+ section .noi-dung .form .input-form p a{
+     color: #020104;
+     text-decoration: none;
+     background: #5FC2EE;
+     border-radius: 25px;
+     padding-left: 7px;
+     padding-right: 7px;
+     padding-top: 2px;
+     padding-bottom: 1px;
+
+
+ }
+ 
